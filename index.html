@@ -28,25 +28,25 @@ background-color: #00EEEE;
 	.sidenav a:hover {
 		color: #f1f1f1; 
 		} 
-		.sidenav .closebtn { 
-		position: absolute;
-		top: 0;
-		right: 25px;
-		font-size: 36px;
-		margin-left: 50px;
-		} 
-		@media screen and (max-height: 450px) { 
-		.sidenav {
-			padding-top: 15px;
-			} 
-			.sidenav a {
-				font-size: 18px;
-				} 
-				} 
+.sidenav .closebtn { 
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 36px;
+margin-left: 50px;
+} 
+@media screen and (max-height: 450px) { 
+.sidenav {
+padding-top: 15px;
+} 
+.sidenav a {
+font-size: 18px;
+} 
+} 
 .link {
 Padding :10px;
 Font-Size: 20px;
-Border: solid 1px white;
+Border: solid 1px;
 border-radius: 10px;
 color: white;
 text-align: center;
@@ -57,19 +57,22 @@ color: white;
 Font-Size: 20px;
 text-align: center;
 background-color: #0481FF;
+border-radius: 10px;
 }
-				</style> 
-				</head> 
-				<body> 
-				<div id="mySidenav" class="sidenav"> 
-				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a> 
+</style> 
+</head> 
+<body> 
+<div id="mySidenav" class="sidenav"> 
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a> 
 <a href="index.html">Home</a> 
-				<a href="10greatestscientists.html">10 Greatest Scientists</a> 
-				<a href="#">Acknowledgement</a> 
-				<a href="#">Contact</a>
-		 </div> 
+<a href="10greatestscientists.html">10 Greatest Scientists</a> 
+<a href="#">Acknowledgement</a> 
+<a href="#">Contact</a>
+ </div> 
   <span style="font-size:30px;cursor:pointer" onclick="openNav()">☰</span>
+<b>
 <p class="text">Hey, I am Devansh.<br>I am going to show a Project on the Greatest Scientists of the World</P>
+</b>
 <a class="link" href="10greatestscientists.html">View Project</a>
   <script> 
   function openNav() { 
