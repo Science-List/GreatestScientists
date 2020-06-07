@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>10 Greatest Scientists</title>
+ <style>
+ body	{
+		font-family: "Lato", sans-serif;
+	 }
+	.sidenav {
+		height: 100%;
+		width: 0;
+		position: fixed;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		background-color: #111;
+		overflow-x: hidden;
+		transition: 0.2s;
+		padding-top: 60px;
+		}
+	.sidenav a {
+		padding: 8px 8px 8px 32px; 
+		text-decoration: none;
+		font-size: 25px;
+		color: #818181; display: block; transition: 0.3s;
+		}
+	.sidenav a:hover {
+		color: #f1f1f1; 
+		} 
+		.sidenav .closebtn { 
+		position: absolute;
+		top: 0;
+		right: 25px;
+		font-size: 36px;
+		margin-left: 50px;
+		} 
+		@media screen and (max-height: 450px) { 
+		.sidenav {
+			padding-top: 15px;
+			} 
+			.sidenav a {
+				font-size: 18px;
+				} 
+				} 
+ h1 {
+  border-bottom: solid 1px;
+padding: 10px 20px 10px 20px;
+font-family: cursive;
+ }
+ body {
+  background-color: white;
+  text-align: center;
+ }
+a {
+color: black;
+border-bottom: solid 1px;
+padding: 10px 100px 10px 100px;
+font-size: 20px;
+}
+.thomas {
+padding: 10px 65px 10px 65px;
+}
+ </style>
+</head>
+<body>
+<h1><strong><em>10 Greatest Scientists</strong></h1>
+<a href="#">Albert Einstein</a>
+<br>
+<br>
+<br>
+<a href="#">Issac Newton</a>
+<br>
+<br>
+<br>
+<a href="#">Galileo Galilei</a>
+<br>
+<br>
+<br>
+<a href="#">Marie Curie</a>
+<br>
+<br>
+<br>
+<a href="#">Nikola Telsa</a>
+<br>
+<br>
+<br>
+<a href="#">Aristotle</a>
+<br>
+<br>
+<br>
+<a href="#">Charles Darwin</a>
+<br>
+<br>
+<br>
+<a href="#">Michael Faraday</a>
+<br>
+<br>
+<br>
+<a href="#">Louis Pasteur</a>
+<br>
+<br>
+<br>
+<a class="thomas" href="#">Thomas Alva Edison</a>
+</em>
+ <script></script>
+</body>
+</html>
