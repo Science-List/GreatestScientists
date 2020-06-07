@@ -63,7 +63,16 @@ padding: 10px 65px 10px 65px;
 }
  </style>
 </head>
+
 <body>
+<div id="mySidenav" class="sidenav"> 
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a> 
+<a href="#">Home</a> 
+				<a href="#">10 Greatest Scientists</a> 
+				<a href="#">Acknowledgement</a> 
+				<a href="#">Contact</a>
+		 </div> 
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">☰</span>
 <h1><strong><em>10 Greatest Scientists</strong></h1>
 <a href="#">Albert Einstein</a>
 <br>
@@ -103,6 +112,14 @@ padding: 10px 65px 10px 65px;
 <br>
 <a class="thomas" href="#">Thomas Alva Edison</a>
 </em>
- <script></script>
+ <script> 
+  function openNav() { 
+document.getElementById("mySidenav").style.width = "250px"; 
+  } 
+  function closeNav() { 
+  document.getElementById("mySidenav").style.width = "0"; 
+  
+  } 
+  </script> 
 </body>
 </html>
