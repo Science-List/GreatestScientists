@@ -1,15 +1,9 @@
 <!DOCTYPE html>
-	<html>
-	<head>
-<Title>Science-List</title>
-<meta name="description" content="Greatest Scientists in the World">
-  <meta name="keywords" content="Scientists, Greatest Scientists, 10 Greatest Scientists, Devansh Khetwani, Sanmati Higher Secondary school, Best site, Greatest Scientists in the World, 10 Greatest Scientists in the World">
-  <meta name="author" content="Devansh Khetwani">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<style>
-	body	{
-		font-family: fantasy;
-		background-color: black;
+ <html> 
+ <head>
+  <style> 
+  body	{
+font-family: fantasy;
 	 }
 	.sidenav {
 		height: 100%;
@@ -20,63 +14,77 @@
 		left: 0;
 		background-color: #111;
 		overflow-x: hidden;
-		transition: 0.2s;
+		transition: 0.3s;
 		padding-top: 60px;
 		}
 	.sidenav a {
 		padding: 8px 8px 8px 32px; 
 		text-decoration: none;
 		font-size: 25px;
-		color: #818181; display: block; transition: 0.3s;
+		color: #818181; display: block; transition: 0.2s;
 		}
 	.sidenav a:hover {
 		color: #f1f1f1; 
 		} 
-.sidenav .closebtn { 
-position: absolute;
-top: 0;
-right: 25px;
-font-size: 36px;
-margin-left: 50px;
-} 
-@media screen and (max-height: 450px) { 
-.sidenav {
-padding-top: 15px;
-} 
-.sidenav a {
-font-size: 18px;
-} 
-} 
-.link {
-Padding :10px;
-Font-Size: 20px;
-Border: solid 1px;
-border-radius: 15px;
-color: white;
-background-color: #0481FF;
+		.sidenav .closebtn { 
+		position: absolute;
+		top: 0;
+		right: 25px;
+		font-size: 36px;
+		margin-left: 50px;
+		} 
+		@media screen and (max-height: 450px) { 
+		.sidenav {
+			padding-top: 15px;
+			} 
+			.sidenav a {
+				font-size: 18px;
+				} 
+				} 
+  body {
+   background-color: white;
 }
-.text {
-color: white;
-Font-Size: 40px;
+  #myDIV { 
+  width: 90%; 
+  height: 550px;
+   background-color: black; 
+   color: white; 
+   animation: mymove 10s infinite;
+   font-family: cursive;
 text-align: center;
-background-color: #0481FF;
-border-radius: 10px;
-}
-</style> 
-</head> 
-<body> 
-<div id="mySidenav" class="sidenav"> 
-<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a> 
+    }
+   @keyframes mymove { 
+   80% {
+   	box-shadow: 50px 50px 50px #252525;
+   	} 
+   	} 
+   .text {
+   text-align: right;
+   margin-right: 5%;
+   font-size: 25px;
+   </style> 
+   	</head> 
+   	<body>
+   				<div id="mySidenav" class="sidenav"> 
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a> 
 <a href="index.html">Home</a> 
-<a href="10greatestscientists.html">10 Greatest Scientists</a> 
-<a href="acknowledgment.html">Acknowledgement</a>
-<a href="contact.html">Contact</a>
+				<a href="10greatestscientists">10 Greatest Scientists</a> 
+				<a href="acknowledgment.html">Acknowledgement</a> 
+				<a href="contact.html">Contact</a>
+		 </div> 
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">☰</span>
+   	<div id="myDIV"> 
+   <br>
+<h1 class="h1">10 Greatest Scientists</h1>
+<p class="text">By Devansh Khetwani
+<br>
+Class - X 'A'
+<br>
+Submitted to - Nishant Sir
+</p>
+<a href=""
  </div> 
-  <span style="font-size:30px;cursor:pointer;color: white" onclick="openNav()">☰</span>
-<p class="text">Hey, I'm Devansh.<br><br>Let's stay apart to do our part</P>
-<br><br>
-<a class="link" href="10greatestscientists.html">View Project</a>
-  <script> 
+ <script> 
   function openNav() { 
 document.getElementById("mySidenav").style.width = "80%"; 
   } 
@@ -85,5 +93,5 @@ document.getElementById("mySidenav").style.width = "80%";
   
   } 
   </script> 
-  </body> 
-  </html>
+</body>
+</html> 
